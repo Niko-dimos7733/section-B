@@ -33,3 +33,25 @@ print(Psalm2.swapcase())
 Psalm3 = "For whosoever hath, to him shall be given, and he shall have more abundance: but whosoever hath not, from him shall be taken away even that he hath."
 print(Psalm3.find('abundance'))
 print(Psalm3.find('nikodimos'))
+
+#Examle for string.index()
+proverb0 = "As iron sharpens iron, so one man sharpens another."
+print(proverb0.index("s"))
+
+#Example for string.startswith()
+proverb1 = "Charm is deceptive, and beauty is fleeting; but a woman who fears the Lord is to be praised."
+print(proverb1.startswith("C"))
+
+#Example for string.endswith()
+print(proverb1.endswith("ed."))
+
+#Example for string.count()
+print(proverb1.count("m"))
+
+#Example for string.replace()
+text = "--hello world--"
+print(text.replace("h","H"))
+print(text.replace("o","0",1))
+
+#Example for string.strip()
+print(text.strip("-"))

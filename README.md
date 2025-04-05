@@ -30,3 +30,27 @@ Good for formatting sentences or names.
 # String.find()
 - Searches for a substring in the string and returns the index of its first occurrence.
 - If not found, it returns -1.
+
+# string.index()
+- Returns the first index where the substring sub is found
+- Throws ValueError if sub is not found.
+
+# string.startswith()
+- Checks if the string starts with the given prefix.
+- Returns True or False.
+
+# string.endswith()
+- Checks if the string ends with the given suffix.
+- Returns True or False.
+
+# string.count()
+- Returns the number of times sub or character appears in the string.
+
+# string.replace()
+- Returns a new string where occurrences of old are replaced with new.
+- Optional: limit replacements with count.
+
+# string.strip()
+- Removes leading and trailing characters
+- If chars is provided, removes any of those characters from both ends.
+
