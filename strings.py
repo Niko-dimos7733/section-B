@@ -55,3 +55,27 @@ print(text.replace("o","0",1))
 
 #Example for string.strip()
 print(text.strip("-"))
+
+#Example for string.lstrip
+print(text.lstrip("-"))
+
+#Example for string.rstrip()
+print(text.rstrip("-"))
+
+#Example for string.split()
+text1 = 'one two three four five'
+print(text1.split())
+
+#Example for string.join()
+words = ["The" ,"fear", "of", "the", "Lord", "is" ,"the", "beginning", "of", "wisdom"]
+sentence = ' '.join(words)
+print(sentence)
+
+#Example for string.isalpha()
+print(God.isalpha())
+language = "python"
+print(language.isalpha())
+
+#Example for string.isdigit()
+numbers = "012345678"
+print(numbers.isdigit())

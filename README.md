@@ -54,3 +54,28 @@ Good for formatting sentences or names.
 - Removes leading and trailing characters
 - If chars is provided, removes any of those characters from both ends.
 
+# string.lstrip()
+- Removes characters from the left side of a string.
+- If no argument is given, it removes whitespace (spaces, tabs, newlines).
+- If you provide a string as an argument, it removes all matching characters from the start, not a prefix.
+
+# string.rstrip()
+- Removes characters from the right side of a string.
+- Behaves like lstrip() but on the end.
+- Useful for cleaning up trailing spaces, symbols, or newlines.
+
+# string.split()
+- Breaks a string into a list of parts based on a separator.
+- Default separator is any whitespace.
+
+# string.join()
+- Joins elements in an iterable (like a list) into one string.
+- The string it’s called on is placed between each element.
+
+# string.isalpha()
+- Returns True if all characters are alphabetic (a-z, A-Z) and the string is not empty.
+- Returns False if it contains numbers, spaces, or symbols.
+
+# string.isdigit()
+- Returns True if all characters are digits (0-9) and the string is not empty.
+- Doesn’t accept decimal points or negative signs — just digits.
