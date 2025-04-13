@@ -79,3 +79,27 @@ print(language.isalpha())
 #Example for string.isdigit()
 numbers = "012345678"
 print(numbers.isdigit())
+
+# Example for str.isalnum()
+text = "abc123"
+print(text.isalnum())  
+
+# Example for str.isspace()
+space_text = "   \t\n"
+print(space_text.isspace()) 
+
+# Example for str.format()
+name = "Nikodimos"
+print("Hello, {}".format(name)) 
+
+# Example for f-strings
+age = 25
+print(f"I am {age} years old") 
+
+# Example for len()
+message = "Hello"
+print(len(message))  
+
+# Example for str.encode()
+ethiopic = "ሰላም"
+print(ethiopic.encode())
