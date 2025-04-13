@@ -79,3 +79,31 @@ Good for formatting sentences or names.
 # string.isdigit()
 - Returns True if all characters are digits (0-9) and the string is not empty.
 - Doesn’t accept decimal points or negative signs — just digits.
+
+# string.isalnum()
+- Checks if all characters are letters or digits (no spaces or symbols).
+- Returns True or False.
+
+# string.isspace()
+- Checks if the entire string is made up of whitespace characters.
+- Returns True or False.
+
+# string.format()
+- Inserts values into placeholders using {}.
+More verbose than f-strings but still works.
+
+# f-strings
+- Modern way to format strings using f"text {var}".
+- Cleaner, faster, and preferred over string.format().
+
+# len()
+- Returns the number of characters in a string (or items in a list).
+- Simple and essential.
+
+# string.encode()
+- Converts a string into bytes (default UTF-8).
+Useful for files, networks, etc.
+
+
+
+
