@@ -21,3 +21,17 @@
 # list.clear()
 - Removes all items from the list, leaving it empty.
 - Quick way to reset a list.
+
+# list.index()
+- Returns the index of the first occurrence of item x.
+
+# list.count()
+- Returns the number of times item x appears in the list.
+- Handy for frequency checks.
+
+# list.reverse()
+- Reverses the list in place (modifies the original list).
+
+# list.sort()
+- Sorts the list in ascending order by default.
+- Use reverse=True to sort in descending order.
