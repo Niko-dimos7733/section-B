@@ -35,3 +35,19 @@
 # list.sort()
 - Sorts the list in ascending order by default.
 - Use reverse=True to sort in descending order.
+
+# list.copy()
+- Returns a shallow copy of the list (not linked to the original).
+- Useful when you want to modify a list without affecting the original.
+
+# list.__len__()
+- Returns the number of items in the list.
+- Most commonly used with the built-in len() function.
+
+# list.__getitem__(index)
+- Retrieves the item at the given index.
+- Same as using square brackets.
+
+# list.__setitem__(index, value)
+- Assigns a value to the item at a specific index.
+- Common for updating list content.

@@ -50,6 +50,31 @@ print(scores)
 scores.sort(reverse=True)
 print(scores)
 
+#Example for copy()
+original = [1, 2, 3]
+duplicate = original.copy()
+duplicate.append(4)
+print(original)
+print(duplicate)
+
+#Example for list.__len__()
+items = ['pen', 'book', 'eraser']
+size = len(items)
+print(size)
+
+#Example for list.__getitem__(index)
+nums = [10, 20, 30]
+value = nums[1]
+print(value)
+
+#Example for list.__setitem__(index, value)
+letters = ['a', 'b', 'c']
+letters[1] = 'z'
+print(letters)
+
+
+
+
 
 
 
