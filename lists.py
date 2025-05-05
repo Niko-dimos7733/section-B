@@ -77,6 +77,18 @@ names = ['Tom', 'Jerry', 'Spike']
 del names[0]
 print(names)
 
+#Examples for zip(list1,list2)
+names = ['Alice', 'Bob']
+ages = [25, 30]
+combined = list(zip(names, ages))
+print(combined)
+
+
+
+
+
+
+
 
 
 

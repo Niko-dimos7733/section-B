@@ -55,3 +55,7 @@
 # list.__delitem__(index)
 - Deletes the item at the specified index.
 - Shortcut is using del.
+
+# Zip(list1,list2)
+- Combines two (or more) lists element-wise into tuples.
+- Stops at the length of the shortest list.
