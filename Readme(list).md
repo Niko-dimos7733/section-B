@@ -51,3 +51,7 @@
 # list.__setitem__(index, value)
 - Assigns a value to the item at a specific index.
 - Common for updating list content.
+
+# list.__delitem__(index)
+- Deletes the item at the specified index.
+- Shortcut is using del.

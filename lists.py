@@ -72,6 +72,12 @@ letters = ['a', 'b', 'c']
 letters[1] = 'z'
 print(letters)
 
+#Example for list.__delitem__(index)
+names = ['Tom', 'Jerry', 'Spike']
+del names[0]
+print(names)
+
+
 
 
 
